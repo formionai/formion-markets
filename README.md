@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/formionai/formion-markets/main/assets/banner.png" alt="formion-markets" width="100%" />
-
-<img src="https://raw.githubusercontent.com/formionai/formion-markets/main/assets/showcase.jpg" alt="Formion — the AI trading terminal" width="88%" />
+<img src="https://raw.githubusercontent.com/formionai/formion-markets/main/assets/banner.png" alt="formion-markets — Formion AI trading terminal" width="100%" />
 
 # formion-markets
 
