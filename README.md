@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="formion-markets" width="100%" />
+<img src="https://raw.githubusercontent.com/formionai/formion-markets/main/assets/banner.png" alt="formion-markets" width="100%" />
 
 # formion-markets
 
