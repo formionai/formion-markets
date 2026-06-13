@@ -1,0 +1,35 @@
+{
+  "name": "formion-markets",
+  "version": "0.1.0",
+  "description": "Every market in your terminal — no API key. CLI + zero-runtime-dep TypeScript clients for crypto perps (Bybit), Solana DEX flow (GeckoTerminal) and prediction markets (Polymarket).",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "formion-markets": "dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "markets": "node --experimental-strip-types src/cli.ts",
+    "prepare": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "files": ["dist", "src"],
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": ["trading", "crypto", "solana", "dex", "perps", "funding", "prediction-markets", "polymarket", "bybit", "geckoterminal", "cli", "markets", "fintech", "formion"],
+  "author": "Formion (formion.ai)",
+  "license": "MIT",
+  "homepage": "https://app.formion.ai",
+  "repository": { "type": "git", "url": "https://github.com/formionai/formion-markets.git" },
+  "bugs": { "url": "https://github.com/formionai/formion-markets/issues" }
+}
